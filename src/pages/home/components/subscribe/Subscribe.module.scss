@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    height: 600px;
+    width: 100%;
+    background-image: url(https://preview.colorlib.com/theme/podca/images/hero_bg_1.jpg);
+    margin-top: 40px;
+    .textbox{
+        color: white;
+        font-size: larger;
+        h1{
+            margin-left: 40px;
+            color: orangered;
+            &:hover{
+                color: rgb(218, 149, 191);
+            }
+        }
+        span{
+            &:hover{
+                color: rgb(218, 149, 191);
+            }  
+        }
+        input{
+background-color: rgb(226, 169, 169);
+font-size: larger;
+margin-top: 40px;
+border: none;
+&:hover{
+    background-color:white;
+}
+}
+    }
+}

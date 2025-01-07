@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    height: 80px;
+    width: 100%;
+    color: white;
+    position: absolute;
+    .textbox{
+        height: 20px;
+        width: 10%;
+        h3{
+            &:hover{
+                color: rgb(226, 169, 169);
+            }
+        }
+    }
+}
